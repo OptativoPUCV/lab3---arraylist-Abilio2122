@@ -43,3 +43,9 @@ arraylist.c:26:33: error: expected ‘;’ before ‘l’
       |     ~                            
 Compilation failed
 01cd0a0
+Fri 31 Mar 2023 08:58:12 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 20/70
+591b8db
