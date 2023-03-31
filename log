@@ -142,3 +142,8 @@ arraylist.c:45:13: error: ‘k’ undeclared (first use in this function)
 arraylist.c:45:13: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 2542390
+Fri 31 Mar 2023 09:30:28 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+b033535
