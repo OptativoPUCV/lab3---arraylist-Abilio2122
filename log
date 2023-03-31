@@ -200,3 +200,23 @@ Fri 31 Mar 2023 09:37:08 PM UTC:
  tests:  5|3
 total_score: 30/70
 aae5d7d
+Fri 31 Mar 2023 09:46:03 PM UTC: 
+ arraylist.c | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+In file included from test.c:5:
+arraylist.c:65:5: error: expected identifier or ‘(’ before ‘return’
+   65 |     return l->data[i];
+      |     ^~~~~~
+arraylist.c:68:5: error: expected identifier or ‘(’ before ‘return’
+   68 |     return NULL;
+      |     ^~~~~~
+arraylist.c:69:1: error: expected identifier or ‘(’ before ‘}’ token
+   69 | }
+      | ^
+arraylist.c: In function ‘get’:
+arraylist.c:64:5: error: control reaches end of non-void function [-Werror=return-type]
+   64 |     }
+      |     ^
+cc1: all warnings being treated as errors
+Compilation failed
+6f435c8
