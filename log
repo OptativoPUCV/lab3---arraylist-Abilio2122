@@ -30,3 +30,16 @@ Fri 31 Mar 2023 08:53:21 PM UTC:
  tests:  1|5
 total_score: 10/70
 b45b383
+Fri 31 Mar 2023 08:57:52 PM UTC: 
+ arraylist.c | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘append’:
+arraylist.c:26:33: error: expected ‘;’ before ‘l’
+   26 |     l->capacity= (l->capacity)*2
+      |                                 ^
+      |                                 ;
+   27 |     l->data =(void*) realloc(l->data, sizeof(void*)*l->capacity);
+      |     ~                            
+Compilation failed
+01cd0a0
