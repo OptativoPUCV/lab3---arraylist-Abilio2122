@@ -399,3 +399,9 @@ Sat 01 Apr 2023 01:23:24 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 28b093b
+Sat 01 Apr 2023 01:26:31 PM UTC: 
+ arraylist.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+ tests:  16|0
+total_score: 70/70
+a428cff
