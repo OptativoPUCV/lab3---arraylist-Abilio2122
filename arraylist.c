@@ -20,10 +20,11 @@ ArrayList *createList(void) {
 }
 
 void append(ArrayList * l, void * data){
-  while(l->size < l->capacity){
-    l->size++;
+  int pos=l->size
+  while(pos < l->capacity){
+    pos++;
   }
-  if(l->size==l->capacity)
+  if(pos==l->capacity)
   {
     l->data=realloc(l->data,sizeof(void)*2);
     l->capacity= (l->capacity)*2;
