@@ -49,7 +49,10 @@ void push(ArrayList * l, void * data, int i){
 
 void* pop(ArrayList * l, int i){
   void *aux=l->data[i];
-  
+
+  if (l->size == 0){
+    return NULL;
+  }
   if(i>l->size)
     return NULL;
   
