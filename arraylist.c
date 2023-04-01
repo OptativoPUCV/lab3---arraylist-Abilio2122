@@ -20,7 +20,7 @@ ArrayList *createList(void) {
 }
 
 void append(ArrayList * l, void * data){
-  int pos=l->size
+  int pos=l->size;
   while(pos < l->capacity){
     pos++;
   }
