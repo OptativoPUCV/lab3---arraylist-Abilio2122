@@ -67,11 +67,11 @@ void* pop(ArrayList * l, int i){
     }
   }
   else{
-    for(int j=i;j<l->size;j++){
+  /*  for(int j=i;j<l->size;j++){
       l->data[j]=l->data[j+1];
     }
   }
-  
+  */
   l->size--;
   
   return aux;
